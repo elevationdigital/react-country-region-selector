@@ -1,11 +1,10 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import CountryRegionData from '../node_modules/country-region-data/data.json';
+import CountryRegionData from '../node_modules/@elevationdigital/country-region-data/data.json';
 import C from './constants';
 import * as helpers from './helpers';
 
 export default class CountryDropdown extends Component {
-
 	constructor (props) {
 		super(props);
 

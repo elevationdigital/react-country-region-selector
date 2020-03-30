@@ -4,6 +4,9 @@
   "description": "CountryDropdown and RegionDropdown React components for your forms.",
   "author": "elevationdigital",
   "license": "MIT",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/elevationdigital/react-country-region-selector.git"
@@ -37,7 +40,6 @@
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-0": "^6.24.1",
-    "@elevationdigital/country-region-data": "1.6.1",
     "cross-env": "^5.1.4",
     "enzyme": "^3.6.0",
     "enzyme-adapter-react-16": "^1.5.0",
@@ -66,5 +68,8 @@
   "files": [
     "dist",
     "index.d.ts"
-  ]
+  ],
+  "dependencies": {
+    "@elevationdigital/country-region-data": "^1.6.1"
+  }
 }
